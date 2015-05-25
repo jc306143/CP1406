@@ -48,17 +48,17 @@ include("dbconnection.php")
 <fieldset class="subtleSet">
 <h2>Current Data:</h2>
 <?php
-$sql = "SELECT * FROM artists.sqlite";
+$sql = "SELECT * FROM artists";
 foreach ($dbh->query($sql) as $row)
 {
 ?>
 <form id="deleteForm" name="deleteForm" method="post" action="dbprocessartists.php">
 <?php
-    echo "<input type='text' name='artist' value='$row[artist] /> <input type='text' name='phone' value='$row[phone]' /> <input type='text' name='website' value='$row[website]' /> <input type='text' name='email' value='$row[email]' />\n";
-    echo "<input type='hidden' name='id' value='$row[id]' />";
+	echo "<input type='text' name='artist' value='$row[artist]' /> <input type='text' name='phone' value='$row[phone]' /> <input type='text' name='website' value='$row[website]' /> <input type='text' name='email' value='$row[email]' />\n";
+	echo "<input type='hidden' name='id' value='$row[id]' />";
 ?>
 <input type="submit" name="submit" value="Update Entry" />
-<input type="submit" name="submit" value="Delete Entry">
+<input type="submit" name="submit" value="Delete Entry" class="deleteButton">
 <input type="submit" name="submit" value="X" class="deleteButton">    
 </form>
 <?php
