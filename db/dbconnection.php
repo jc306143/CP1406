@@ -1,6 +1,6 @@
 <?php
 try {
-    $dbh = new PDO("sqlite:artists.sqlite");
+    $dbh = new PDO("sqlite:tcmc.sqlite");
 }
 catch(PDOException $e)
 {
