@@ -1,0 +1,200 @@
+@charset "UTF-8";
+body{
+	background-image:url(stagelong.png)
+}
+#mainwrapper header {
+	/*Header */
+	overflow: auto;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+#mainwrapper header #logo {
+	/* Company Logo*/
+	width: 28%;
+	float: left;
+	padding-left: 2%;
+	padding-top: 12px;
+	padding-bottom: 20px;
+	color: rgba(146,146,146,1.00);
+}
+#mainwrapper header nav {
+	/*Nav bar containing links in header */
+	text-align: right;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-right: 2%;
+	width: 68%;
+	float: left;
+	color: white;
+}
+
+#mainnav{
+	padding-top: 1%;
+
+}
+
+#mainnav ul{
+	padding: .3em 1em;
+	list-style-type: none;
+	text-align: center;
+	font-family: montserrat, sans-serif;
+}
+
+#mainnav ul li { 
+	display: inline; 
+}
+
+
+#mainnav ul li a{
+	text-decoration: none;
+	padding: .3em 1em;
+	color: white;
+}
+#mainwrapper nav a {
+	/* Links in header */
+	padding-right: 2%;
+	text-align: right;
+}
+h1 a{
+	margin-left:auto;
+	margin-right: auto;
+	color: white;
+	padding-top: 6%;
+	padding-left: 29%;
+	text-align: centre;
+	text-decoration:none;
+}
+#tagline{
+	text-align:center;
+	font-family: source-sans-pro, sans-serif;	
+}
+
+#contentheader {
+	/*MainContent Heading */
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	color: white;
+	text-align: center;	
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: .5%;
+	
+}
+#content #mainContent h1 , #content #mainContent h2    {
+	/* Styling for main headings */
+	color: white;
+	text-align: center;
+	padding-bottom: 7%;
+}
+#content #mainContent h3 {
+	/*Captions ot Taglines */
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: white;
+	text-align: center;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content mainContent p {
+	/* All paragraphs under maincontent */
+	color: rgba(146,146,146,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	padding-bottom: 20px;
+}
+
+#mainContent {
+	/* Container for the blog post in individal blog view */
+	padding-left: 1%;
+	width: 50%;
+	padding-right: 1%;
+	padding-top: 3%;
+	padding-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bullet{
+	padding-top: 2%;
+	padding-bottom: 7%;
+	border-top: medium solid white;
+}
+.bulletimg{
+	float: left;
+	margin-right: 2%;
+	padding-top: 10px;
+}
+
+#mainwrapper {
+	/* Container of all content */
+	width: 90%;
+	overflow: auto;
+	color: white;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+nav ul {
+	padding-left: 0%;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+#mainwrapper header nav a {
+	/* Links in header */
+	color: white;
+	text-decoration: none;
+}
+#bottomnav{
+	margin-right:auto;
+	margin-left: auto;
+	text-align:center;	
+}
+#bottomnav a{
+	text-decoration: none;
+	padding: .3em 1em;
+	color: white;
+}
+footer {
+	/* Container for footer artices */
+	width: 86%;
+	margin-left: 11%;
+	background-color: white;
+}
+
+footer ul li{
+	list-style-type: none;
+	line-height: 150%;	
+
+}
+
+footer ul{
+	padding-left: 0%;
+	padding-right: 0%;
+}
+footer article  {
+	/* Footer articles */
+	width: 45%;
+	float: left;
+	text-align: center;
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	border-top: medium solid white;
+}
+
+footer article h3  {
+	/* Footer article titles */
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
